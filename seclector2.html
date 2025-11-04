@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seclector</title>
+    <style>
+        body {
+            color: rgb(19, 235, 138);
+        }
+
+        .box {
+            color: brown;
+        }
+
+        div p {
+            color: #0a9869;
+        }
+
+        div~p {
+            color: #666;
+        }
+
+        a:hover {
+            color: rgb(111, 35, 35);
+            font-size: 20px;
+        }
+
+        a:active {
+            color: rgb(152, 61, 201);
+            font-size: 25px;
+        }
+
+        li {
+            list-style: none;
+            display: flex;
+        }
+
+        ul li {
+            margin: 20px;
+            border-right: 1px solid #999;
+            padding-right: 20px;
+        }
+
+        ul li:hover {
+            color: rgb(105, 169, 22);
+        }
+
+        ul li:nth-child(5) {
+            border-right: 0px;
+        }
+
+        .para::first-letter {
+            color: burlywood;
+            font-size: large;
+        }
+
+        .para::first-line {
+            background-color: lightgray;
+        }
+
+        .para::after {
+            content: "read More";
+            color: #f04;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Combinato</h1>
+
+
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deserunt aperiam, error possimus illo,
+            corporis reprehenderit laudantium ea vero temporibus rerum esse fugit numquam incidunt amet repellendus quia
+            modi corrupti!
+
+
+        </p>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In praesentium dolor omnis ipsam provident ut
+                adipisci, officia doloribus molestiae quam, laboriosam et cumque laborum consequatur sunt similique, id
+                repellat aliquid.
+            </p>
+        </div>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sapiente atque quidem. Eum itaque minima optio
+        eligendi molestias, aliquam amet eaque, nemo fugiat quos deserunt? Labore tempore necessitatibus ullam pariatur.
+    </p>
+    <a href=""> Visit this link</a>
+    <ul>
+        <li>home</li>
+        <li>services</li>
+        <li>about</li>
+        <li>gallery</li>
+        <li>contact</li>
+
+
+
+    </ul>
+
+
+
+
+
+</body>
+
+</html>
