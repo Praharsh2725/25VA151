@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 217, 176);
+    background-image: url('./azx.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background: url('./azx.jpg') no-repeat center cover fixed;
+}
+p{
+    font-family: arial;
+    font-size: 30px;
+    color: #F04;
+    font-weight: 700;
+    font-style: italic;
+
+
+}
